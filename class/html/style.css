@@ -1,0 +1,25 @@
+body{
+
+    background-color: beige;
+}
+.pre{
+    width: 1400px;
+    background-color:black; color: white;
+     display: inline-block;
+ 
+ border: 8px solid black;
+ margin: 3px;
+ padding: 10px 15px}
+
+ .q{
+    width: 500px;
+    background-color:black; color: white;
+     display: inline-block;
+ 
+ border: 2px solid black;
+ margin: 3px;
+ padding: 10px 15px
+ 
+
+
+ }

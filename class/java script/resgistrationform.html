@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: grey;
+    }
+
+    .card {
+        display: inline-block;
+        background-color: aliceblue;
+
+        border: 2px solid black;
+
+        padding: 15px;
+        box-shadow: 20PX 20PX 30PX black;
+    }
+
+
+    .card input {
+        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+
+    .card label {
+        font-size: 20px;
+
+
+    }
+
+    .card button {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 15px;
+        color: white;
+        background-color: green;
+        border-radius: 5px;
+
+    }
+</style>
+
+<body>
+    <center>
+        <label> registration form</label>
+
+        <div class="card">
+
+
+
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" id="nam">
+
+
+            <br>
+
+            <label>Phone</label>
+            <input type="text" placeholder="Enter your phone number" id="pho">
+
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" id="mail">
+
+            <br>
+            <label>password</label>
+            <input type="password" placeholder="Enter your password" id="pass">
+
+            <br>
+            <label>Countrey</label>
+            <input type="text" placeholder="Enter your country name" id="count">
+
+            <label>City</label>
+            <input type="text" placeholder="Enter your City name" id="cit">
+
+
+            <br>
+            <button onclick="Registration()">Insert Data</button>
+
+            <h1 id="resultn"></h1>
+            <h1 id="resultp"></h1>
+            <h1 id="resulte"></h1>
+            <h1 id="resultpp"></h1>
+            <h1 id="resultc"></h1>
+            <h1 id="resultci"></h1>
+        </div>
+    </center>
+</body>
+
+
+<script>
+    function Registration() {
+        var a6 = document.getElementById("nam").value;
+        var a1 = document.getElementById("pho").value;
+        var a2 = document.getElementById("mail").value;
+        var a3 = document.getElementById("pass").value;
+        var a4 = document.getElementById("count").value;
+        var a5 = document.getElementById("cit").value;
+
+        var res = document.getElementById("resultn").innerHTML = a1;
+        var res = document.getElementById("resultp").innerHTML = a2;
+        var res = document.getElementById("resulte").innerHTML = a3;
+        var res = document.getElementById("resultpp").innerHTML = a4;
+        var res = document.getElementById("resultc").innerHTML = a5;
+        var res = document.getElementById("resultci").innerHTML = a6;
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+</script>
+
+</html>
